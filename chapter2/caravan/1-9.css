@@ -51,3 +51,33 @@ main{
 	color: white;
 	padding: 3px;
 }
+.title{
+	margin: 15px 0 5px;
+}
+@media screen and (max-width: 768px){
+	main{
+		width: 90%;
+		margin: 50px auto;
+	}
+	.step-box{
+		width: 98%;
+		float: none;
+		margin-right: 1%;
+		margin-left: 1%;
+	}
+	.step1{
+		width: 90%;
+	}
+	.step2{
+		width: 90%;
+	}
+	.step3{
+		width: 90%;
+	}
+	.step-box:first-child,
+	.step-box:nth-child(2) {
+		margin-bottom: 20px;
+	}
+	.step-num{
+	}
+}
